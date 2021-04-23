@@ -1,3 +1,3 @@
 # .dotfiles
 
-completion mess right now
+complete mess right now

@@ -1,5 +1,0 @@
-# enable clipboard
-set selection-clipboard clipboard
-
-# scrollbars
-set show-scrollbars true

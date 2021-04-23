@@ -1,0 +1,24 @@
+$include /etc/inputrc
+#"\C-p":history-search-backward
+#"\C-n":history-search-forward
+
+#set colored-stats On
+#set completion-ignore-case On
+#set completion-prefix-display-length 3
+#set mark-symlinked-directories On
+#set show-all-if-ambiguous On
+#set show-all-if-unmodified On
+#set visible-stats On
+
+#Zsh-like autocompletion
+#bind 'set show-all-if-ambiguous on'
+#bind 'TAB:menu-complete'
+#set completion-ignore-case on
+
+### Search History (autocomplete style~)
+# Press up-arrow for previous matching command
+"\e[A":history-search-backward
+# Press down-arrow for next matching command
+"\e[B":history-search-forward
+
+
